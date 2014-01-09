@@ -4,22 +4,62 @@
 <head>
 	<meta charset="utf-8">
 	<title>HCI Project Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
 </head>
 
 <body>
-	<!-- this is a comment in HTML -->
-	<h1>Kurt Selander</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project Portfolio</h4>
 
-	<!-- p means paragraph -->
-	<p> Kurt Selander is a 5th year computer science major at University of California San Diego </p>
+	<div class="container">
+		     <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+<!--             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
 
-	<h4>Projects</h4>
-	<ol>
-		<li>Waiting in line</li>
-		<li>Needfinding</li>
-		<li>Prototyping</li>
-		<li>...</li>
-	</ol>
+       	<div class="jumbotron">
+	        <h1>Kurt Selander</h1>
+	        <h4>Project Portfolio</h4>
+	        <p> Kurt Selander is a 5th year computer science major at University of California San Diego </p>
+	        <h4>Projects</h4>
+				<ol>
+					<li>Waiting in line</li>
+					<li>Needfinding</li>
+					<li>Prototyping</li>
+					<li>...</li>
+				</ol>
+      	</div> <!-- /.jumbotron -->
+
+	</div>	  
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
